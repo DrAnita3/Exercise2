@@ -2,6 +2,11 @@ package main.model.animals;
 
 public class Dog extends Animal {
 
-    // TODO
+
+
+    @Override
+    public void makeSound() {
+        System.out.println("Bark-bark");
+    }
 
 }
